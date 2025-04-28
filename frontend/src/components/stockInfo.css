@@ -1,0 +1,207 @@
+.stock-info-container {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.stock-info-graph-details {
+    margin-left: 30px;
+    width: 80%;
+    height: 1300px;
+}
+
+.timeline-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.timeline-button span {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.timeline-button span.active {
+    background-color: #6af6ce;
+}
+
+
+.stock-info-by-script {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 700px;
+    height: 500px;
+  }
+  
+  .stock-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .stock-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+  }
+  
+  .stock-label {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .stock-value {
+    color: #555;
+  }
+  
+
+.stock-info-graph-details {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.stock-info-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.stock-name h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.stock-id {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.stock-id h1 {
+    margin-right: 40px;
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.stock-id h2 {
+    margin-top: 14px;
+    font-size: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 60;
+}
+
+.fundamentals-section {
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #e3e3e3;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.fundamentals-section h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.fundamentals-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fundamentals-left,
+.fundamentals-center,
+.fundamentals-right,
+.fundamentals-right-values {
+    display: flex;
+    flex-direction: column;
+}
+
+.fundamentals-left p,
+.fundamentals-right p {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.fundamentals-center p,
+.fundamentals-right-values p {
+    text-align: right;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.fundamentals-note {
+    font-size: 14px;
+    color: #888;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.fundamentals-note i {
+    margin-right: 5px;
+}
+
+.stock-info-other-info {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+}
+
+
+.stock-by-script {
+    background-color: #f9f9f9; /* light background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* subtle shadow */
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+    /* here give a decent font family which is good for market and that displays positive attraction*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .loading-indicator {
+    /* font-size: 1.2rem; */
+    color: #6c757d;
+    text-align: center;
+    padding: 10px;
+    animation: pulse 1.5s infinite; /* subtle loading animation */
+  }
+  
+  .script-data {
+    /* font-size: 1.4rem; */
+    color: #343a40;
+    text-align: justify;
+    padding: 15px 0;
+  }
+  
+  .script-data p {
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  /* Animation for loading */
+  @keyframes pulse {
+    0% { opacity: 0.7; }
+    50% { opacity: 1; }
+    100% { opacity: 0.7; }
+  }
+  

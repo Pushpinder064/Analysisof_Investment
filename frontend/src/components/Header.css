@@ -1,0 +1,24 @@
+.header {
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    z-index: 1000;
+}
+
+.header-logo {
+    width: 130px;
+    height: auto;
+}
+
+.header-logo img {
+    max-width: 100%;
+    height: auto;
+} 

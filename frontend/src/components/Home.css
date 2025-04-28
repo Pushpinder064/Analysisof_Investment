@@ -1,0 +1,108 @@
+.home-container {
+    position: absolute; 
+    margin-top: 100px; 
+    padding: 0; 
+    width: 100%; 
+    height: 100vh;
+}
+
+.banner {
+    position: relative; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%; 
+    color: black; 
+    text-align: center;
+    z-index: 1; 
+}
+
+.home-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-hero-heading-1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 96px;
+    line-height: 96px;
+    margin-top: 54px;
+}
+
+.home-hero-heading-2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 16px;
+}
+
+.banner-button {
+    margin-top: 20px;
+    width: 8%;
+    padding: 10px;
+    background-color: #00B386;
+    text-align: center;
+    color: black;
+    font: 16px bold;
+    border: 1px solid black;
+    border-radius: 8px;
+    height: 40px;
+    cursor: pointer;
+}
+
+/* Update the styling for the asset-class section */
+.asset-class {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px; 
+    padding: 20px;
+}
+
+.asset-class div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 300px;
+    height: 170px;
+    border: 2px solid black;
+    border-radius: 13%;
+    background-color: rgb(243, 240, 240);
+    box-shadow: 10px 10px 3px rgba(11, 11, 11, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+}
+
+.asset-class div:hover {
+    transform: translateY(+10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.asset-class h1 {
+    font-size: 24px;
+    font-weight:600;
+    color: #333;
+    margin-bottom: auto;
+}
+
+.asset-class button {
+    font-weight: 600;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.asset-class button:hover {
+    text-decoration: underline;
+}

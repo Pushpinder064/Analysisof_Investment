@@ -1,0 +1,161 @@
+/* General styling for the container */
+.investment-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 30px;
+    max-width: 900px;
+    margin: 50px auto;
+    /* background: linear-gradient(135deg, #f8f9fa, #e9ecef); */
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.investment-title {
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    color: #4a4a4a;
+}
+
+/* Input section styling */
+.investment-input-section {
+    width: 45%;
+}
+
+.total-investment {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.total-investment p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.total-investment input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+    background-color: #f1f8f5;
+    border: 1px solid #c9e5d4;
+    border-radius: 8px;
+    transition: border-color 0.3s;
+}
+
+.total-investment input:focus {
+    border-color: #1cc88a;
+    outline: none;
+    box-shadow: 0 4px 10px rgba(28, 200, 138, 0.1);
+}
+
+/* Graph Section Styling */
+.investment-graph-section {
+    width: 45%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.graph-placeholder {
+    width: 100%;
+    height: 300px;
+    background-color: #e9ecef;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #666;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Button Styling */
+.calculate-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #1cc88a;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.calculate-button:hover {
+    background-color: #17a673;
+}
+
+/* Hide spin buttons in number inputs */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+
+/* Asset class cards section */
+.asset-class-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 900px;
+  }
+  
+  .asset-class-card {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .asset-class-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .asset-class-card h1 {
+    font-size: 22px;
+    color: #4a4a4a;
+    margin-bottom: 10px;
+  }
+  
+  .asset-class-card button {
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #1cc88a;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .asset-class-card button:hover {
+    background-color: #17a673;
+  }
+  

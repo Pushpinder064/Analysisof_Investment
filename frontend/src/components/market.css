@@ -1,0 +1,120 @@
+.market-page-hero {
+  width: 80%;
+  margin-top: 100px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.market-page-hero h1.hero-tag {
+    font-size: larger;
+    font-weight: 900;
+    font-style: oblique;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 20px;
+}
+
+.category-selector-list {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.category-selector-list h1 {
+    text-align: center;
+    font-size: larger;
+    font-weight: 500;
+}
+
+.category-selector-list div {
+  cursor: pointer;
+  padding-right: 0px;
+  margin-right: 35px;
+  width: 98px;
+  text-align: center;
+}
+
+.category-selector-list div.active {
+  text-decoration-line: underline;
+  text-decoration-color: #00b386;
+  color: #00b386;
+}
+
+.market-table {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.table-header,
+.table-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px 20px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.table-header {
+  font-weight: bold;
+}
+
+.table-row:hover {
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+.table-header-company,
+.table-row-company {
+  flex: 2;
+}
+
+.table-header-price,
+.table-row-price {
+  flex: 1;
+  text-align: right;
+}
+
+.table-header-open-rate, 
+.table-row-open-rate {
+  flex: 3;
+  text-align: right;
+}
+
+.table-header-close-rate,
+.table-row-close-rate {
+  flex: 4;
+  text-align: right;
+}
+.table-row-price h1{
+  font-weight: 400;
+}
+
+.table-row-price h2 {
+  color: #00b386;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  padding: 5px 10px;
+  margin: 0 5px;
+  border: 1px solid #00b386;
+  background-color: #00b386;
+  color: #ffffff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pagination button:disabled {
+  background-color: #cccccc;
+  border-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.pagination span {
+  margin: 0 10px;
+}
