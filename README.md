@@ -2,7 +2,7 @@
 # Analysisof_Investment
 
 This project uses machine learning to predict stock prices and help to build your portfolio according to your age and risk factor .
-
+![alt text](<Screenshot (18).png>)
 LSTM Model Runner
 Overview
 This project uses an LSTM model for time-series prediction/classification.
